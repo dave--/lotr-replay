@@ -1,0 +1,21 @@
+export default {
+	"downloadMatches": "Alle Spiele runterladen",
+	"step": "Schritt {{number}}:",
+	"setThreat": "threat set",
+	"setPhase": "phase set",
+	"setRound": "round set",
+	"setResource": "resource set",
+	"setDamage": "damage set",
+	"setProgress": "progress set",
+	"moveCard": "move card",
+	"flipCardToFront": "flip card to front",
+	"flipCardToBack": "flip card to back",
+	"attachTo": "attach card to",
+	"tapCard": "tap card",
+	"untapCard": "untap card",
+	"remove": "Entfernen",
+	"appendStep": "Schritt hinzufügen",
+	"insertStep": "Schritt hier einfügen",
+	"appendAction": "Aktion hinzufügen",
+	"removeAction": "Aktion entfernen"
+}

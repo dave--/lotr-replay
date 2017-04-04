@@ -1,0 +1,44 @@
+{
+  "name": "lotr-replay",
+  "version": "1.0.0",
+  "description": "Replays LotR LCG games",
+  "repository": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "~6.9.1",
+    "babel-loader": "~6.2.4",
+    "babel-plugin-add-module-exports": "~0.2.1",
+    "babel-plugin-react-html-attrs": "~2.0.0",
+    "babel-plugin-transform-decorators-legacy": "~1.3.4",
+    "babel-preset-es2015": "~6.9.0",
+    "babel-preset-react": "~6.5.0",
+    "babel-preset-stage-0": "~6.5.0",
+    "css-loader": "~0.23.1",
+    "flux": "~2.1.1",
+    "history": "~3.0.0",
+    "i18next": "~3.1.0",
+    "i18next-browser-languagedetector": "^0.3.0",
+    "i18next-xhr-backend": "^0.5.5",
+    "less": "~2.7.1",
+    "less-loader": "~2.2.3",
+    "react": "~15.1.0",
+    "react-dom": "~15.1.0",
+    "react-i18next": "~1.4.2",
+    "react-redux": "~4.4.5",
+    "react-router": "~2.4.1",
+    "redux": "~3.5.2",
+    "style-loader": "~0.13.1",
+    "webpack": "~1.13.1",
+    "webpack-dev-server": "~1.14.1"
+  },
+  "devDependencies": {
+    "request": "~2.81.0"
+  },
+  "scripts": {
+    "build": "webpack & set NODE_ENV=production& webpack",
+    "dev": "webpack-dev-server --content-base bin --inline --hot",
+    "crawlCards": "node crawlCards.js"
+  },
+  "author": "dave",
+  "license": "ISC"
+}
